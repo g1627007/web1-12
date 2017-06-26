@@ -1,3 +1,7 @@
+document.getElementById('from').onsubmit = function(){
+  window.alert(document.getElementById('from').word.value);
+};
+
 for(var i = 1; i < 101; i++){
   
   var li =document.createElement('li');
@@ -16,6 +20,5 @@ for(var i = 1; i < 101; i++){
   else(){
     li.textContent = i;
   }
-
-
 }
+
