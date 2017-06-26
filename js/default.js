@@ -1,6 +1,6 @@
-for(var i = 1; i < 100; i++){
+for(var i = 1; i < 101; i++){
   var li =document.createElement('li');
-   i;
+  li.textContent = i;
   document.getElementById('list').appendChild(li);
  
     if(i%15 == 0) {
