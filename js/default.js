@@ -1,3 +1,6 @@
+document.getElementById('from').onsubmit = function(){
+  window.alert(document.getElementById('from').word.value);
+};
 
 
 for(var i = 1; i < 101; i++){
@@ -7,8 +10,4 @@ for(var i = 1; i < 101; i++){
 
 }
 
-
-document.getElementById('from').onsubmit = function(){
-  window.alert(document.getElementById('from').word.value);
-};
-
+ 
