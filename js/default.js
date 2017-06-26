@@ -1,16 +1,16 @@
-for(var i = 1; i < 101; i++){
+for(var i = 1; i < 100; i++){
   var li =document.createElement('li');
-  li.textContent = i;
+   i;
   document.getElementById('list').appendChild(li);
  
     if(i%15 == 0) {
   　  System.out.print("FizzBuzz ");}
     else if(i%3 == 0) {
-	  System.out.print("Fizz ");}
-	else if(i%5 == 0) {
-	  System.out.print("Buzz ");}
-	else {
-	  System.out.print(i + " ");}
+      System.out.print("Fizz ");}
+    else if(i%5 == 0) {
+      System.out.print("Buzz ");}
+    else {
+      System.out.print(i + " ");}
 }
 
 document.getElementById('from').onsubmit = function(){
